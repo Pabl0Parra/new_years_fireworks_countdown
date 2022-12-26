@@ -1,1 +1,1 @@
-# new_years_fireworks_countdown
+# A countdown to New Year´s 2023 made with javascript & css
