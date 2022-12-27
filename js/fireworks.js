@@ -163,11 +163,11 @@
                   {
                     enabled: true,
                     files: [
-                      "explosion0.mp3",
-                      "explosion1.mp3",
-                      "explosion2.mp3",
+                      "https://fireworks.js.org/sounds/explosion0.mp3",
+                      "https://fireworks.js.org/sounds/explosion1.mp3",
+                      "https://fireworks.js.org/sounds/explosion2.mp3",
                     ],
-                    volume: { min: 4, max: 8 },
+                    volume: { min: 60, max: 100 },
                   },
                   t
                 )),
@@ -311,14 +311,14 @@
               mouse: a,
               sound: r,
               trace: c = 3,
-              speed: _ = 2,
+              speed: _ = 0.5,
               explosion: d = 5,
               gravity: u = 1.5,
               opacity: l = 0.5,
               particles: p = 50,
               friction: x = 0.95,
               rocketsPoint: m = 50,
-              acceleration: v = 0.5,
+              acceleration: v = 1,
             } = arguments.length > 1 && void 0 !== arguments[1]
               ? arguments[1]
               : {};
