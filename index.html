@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script defer src="./js/fireworks.js"></script>
     <script defer src="./js/app.js"></script>
 </head>
@@ -18,28 +19,28 @@
 <body>
 
     <div class="content-wrapper">
-        <p class="header">Countdown to New Year´s</p>
-        <h1 class="year" id="new-year">0000</h1>
+        <p class="header animate__animated animate__flip" style="font-weight: bold;">COUNTDOWN TO NEW YEAR'S</p>
+        <h1 class="year animate__animated animate__zoomInDown" id="new-year">0000</h1>
         <div class="timer">
-            <div class="timer-box">
+            <div class="timer-box animate__animated animate__backInLeft">
                 <div class="timer-box__count">
                     <span id="days">0</span>
                 </div>
                 <div class="timer-box__text">Days</div>
             </div>
-            <div class="timer-box">
+            <div class="timer-box animate__animated animate__backInLeft">
                 <div class="timer-box__count">
                     <span id="hours">0</span>
                 </div>
                 <div class="timer-box__text">Hours</div>
             </div>
-            <div class="timer-box">
+            <div class="timer-box animate__animated animate__backInRight">
                 <div class="timer-box__count">
                     <span id="minutes">0</span>
                 </div>
                 <div class="timer-box__text">Minutes</div>
             </div>
-            <div class="timer-box">
+            <div class="timer-box animate__animated animate__backInRight">
                 <div class="timer-box__count">
                     <span id="seconds">0</span>
                 </div>

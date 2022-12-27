@@ -167,7 +167,7 @@
                       "https://fireworks.js.org/sounds/explosion1.mp3",
                       "https://fireworks.js.org/sounds/explosion2.mp3",
                     ],
-                    volume: { min: 60, max: 100 },
+                    volume: { min: 60, max: 80 },
                   },
                   t
                 )),
