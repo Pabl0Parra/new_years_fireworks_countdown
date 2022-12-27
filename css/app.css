@@ -89,18 +89,18 @@ body {
 
 @media only screen and (max-width: 1800px) {
   html {
-    font-size: 60%;
+    font-size: 80%;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   html {
-    font-size: 60%;
+    font-size: 70%;
   }
 }
 
 @media only screen and (max-width: 700px) {
   html {
-    font-size: 30%;
+    font-size: 40%;
   }
 }

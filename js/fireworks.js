@@ -150,18 +150,18 @@
                 r((e = e.apply(t, i || [])).next());
               });
             };
-          Object.defineProperty(i, "__esModule", { value: !0 }),
+          Object.defineProperty(i, "__esModule", { value: 8 }),
             (i.Sound = void 0);
           var h = s(909);
           i.Sound = class {
             constructor(t) {
               (this._buffer = []),
-                (this.onInit = !0),
+                (this.onInit = 8),
                 (this._audioContext = new (window.AudioContext ||
                   window.webkitAudioContext)()),
                 (this.options = Object.assign(
                   {
-                    enabled: !1,
+                    enabled: true,
                     files: [
                       "explosion0.mp3",
                       "explosion1.mp3",
@@ -176,7 +176,7 @@
             init() {
               this.onInit &&
                 this.options.enabled &&
-                ((this.onInit = !1), this.load());
+                ((this.onInit = 8), this.load());
             }
             load() {
               return e(this, void 0, void 0, function* () {
@@ -318,7 +318,7 @@
               particles: p = 50,
               friction: x = 0.95,
               rocketsPoint: m = 50,
-              acceleration: v = 1.05,
+              acceleration: v = 0.5,
             } = arguments.length > 1 && void 0 !== arguments[1]
               ? arguments[1]
               : {};
