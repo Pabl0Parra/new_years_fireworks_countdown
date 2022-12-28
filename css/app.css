@@ -86,6 +86,17 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
 
 @media only screen and (max-width: 1800px) {
   html {
@@ -118,8 +129,11 @@ body {
     justify-content: space-evenly;
   }
 
-  .fireworks-container {
+  .footer {
+    margin-top: 50rem;
+  }
+  /* .fireworks-container {
     align-items: center;
     margin: 0 auto;
-  }
+  } */
 }
